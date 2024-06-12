@@ -1,0 +1,28 @@
+}
+section{
+	padding: 70px 17%;
+}
+.home{
+	width: 100%;
+	min-height: 90vh;
+	display: grid;
+	grid-template-colums: repeat(2, 1fr);
+	grid-gap: 1.5rem;
+	align-items: center;
+}
+.heading{
+	text-align: center;
+}
+.heading span{
+	color: var(--main-color);
+	font-weight: 600;
+}
+.heading h2{
+	font-size: var(--h2-font);
+}
+.menu container{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+	grid-gap: 1.5rem;
+	align-items: center;
+}
